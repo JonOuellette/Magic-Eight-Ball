@@ -22,7 +22,7 @@ const EightBall = ({ messages }) => {
             <div className="EightBall-container" style={{ backgroundColor: color }} onClick={handleClick}>
                 <h2 className="EightBall-msg">{msg}</h2>
             </div>
-            <button className="EightBall-button" onClick={handleClick}>Ask</button> {/* Ensure onClick is set here */}
+            <button className="EightBall-button" onClick={handleClick}>Ask</button> 
         </div>
     );
 };
